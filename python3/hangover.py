@@ -3,7 +3,9 @@
 
 import random
 
-from twilio import TwilioRestException
+
+# from twilio import TwilioRestException
+from twilio.base.exceptions import TwilioRestException
 from twilio.rest import TwilioRestClient
 
 from hackerutils import get_dotenv, get_log_path, sh
