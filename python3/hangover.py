@@ -3,7 +3,6 @@
 
 import random
 
-
 # from twilio import TwilioRestException
 from twilio.base.exceptions import TwilioRestException
 from twilio.rest import TwilioRestClient
